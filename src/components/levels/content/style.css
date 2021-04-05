@@ -1,0 +1,62 @@
+.contentFondoLevels{
+    background-color: #B1C9FF;
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.contentContainerLevels{
+    background-image: url(../../../imagenes/levels/Fondo.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contCardsLevels{
+    width: 50%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 9%;
+    row-gap: 25% ;
+}
+.cardLevel{
+    background-color: white;
+    border: 2px solid #00000043;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    cursor: pointer;
+}
+.cardLevel:hover{
+    background-color: #7AF99C;
+    color: #0E0C5A;
+}
+.textCardLevel{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+    padding: 10px;
+}
+.numberCardLevel{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0;
+}
+.verRankingLevels{
+    color: #0E0C5A;
+    padding: 20px 50px;
+    background: #7AF99C 0% 0% no-repeat padding-box;
+    box-shadow: 4px 4px 4px #00000066;
+    border: none;
+    border-radius: 32px;
+    outline: none;
+    cursor: pointer;
+}

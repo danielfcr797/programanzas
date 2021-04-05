@@ -1,0 +1,39 @@
+.containerLoginMain{
+position: relative;
+width: 100%;
+height: 100vh;
+}
+.logoAnimationLogin{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.animacionLogin{
+    position: absolute;
+    z-index: -1;
+    background-color: green;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    animation-name: ecopetrol;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+@keyframes ecopetrol {
+    0%{
+        z-index: 10;
+opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{ 
+        display: none;
+    }
+}

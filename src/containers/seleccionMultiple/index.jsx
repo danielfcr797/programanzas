@@ -1,6 +1,6 @@
 import './style.css';
-import Content from '../../components/levels/content';
-import Header from '../../components/levels/header';
+import Content from '../../components/seleccionMultiple/content';
+import Header from '../../components/seleccionMultiple/header';
 
 function LevelsContainer() {
     return(

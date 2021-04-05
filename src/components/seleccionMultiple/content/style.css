@@ -1,0 +1,101 @@
+.contentFondoSeleccion{
+    background-color: #B1C9FF;
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.contentContainerSeleccion{
+    background-image: url(../../../imagenes/levels/Fondo.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contentContainerSeleccionTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding-top:10px ;
+}
+.contentContainerSeleccionBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40.5%;
+    height: 75%;
+}
+.temporizadorSeleccion{
+    height: 100%;
+    width: 15%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.numTemporizadorSeleccion{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    margin: 0;
+}
+.contentPuntuacionSeleccion{
+    height: 100%;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    border: 3px solid #7AF99C;
+border-radius: 23px;
+}
+.ayudasSeleccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color: #7AF99C;
+    border-radius: 23px 23px 0px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #290B6D;
+}
+.contStarSeleccion{
+    width: 100%;
+    height: 50%;
+    background-color: #FFFFFF;
+    border-radius:  0 0 23px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contentNumQuestionSeleccion{
+    height: 104px;
+    width: 104px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    border: 3px solid #7AF99C;
+    
+}
+.numQuestionSeleccion{
+    font-size: 35px;
+    color: #290B6D;
+    font-weight: 400;
+    margin: 0;
+}
+
+.questionSeleccion{
+    width: 662px;
+height: 97px;
+border: 3px solid #290B6D;
+background-color: white;
+}
