@@ -1,0 +1,22 @@
+.contBody{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.SectionCenter{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ContMode{
+    display: flex;
+    justify-content: flex-start;
+}
+.ContModeRigth{
+    display: flex;
+    align-items: center;
+    height: 160px;
+    justify-content: flex-end;
+}

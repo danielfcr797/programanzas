@@ -1,15 +1,10 @@
 import './style.css';
+import Body from '../../components/home/Body/index';
 
 function Home() {
     return(
         <div className="contenido">
-            <div className="contentLeft">
-                <div className="contentLeftTop">
-                    
-                </div>
-            </div>
-            <div className="contentRight"></div>
-
+            <Body></Body>
 
         </div>
     );

@@ -4,9 +4,7 @@
 }
 .contenido{
     background-color: #0E0C5A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
+    width: 100%;
     margin: 0;
 }

@@ -1,0 +1,161 @@
+.cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.contentLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+.contentLeftTop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.fontLeft{
+    font-family: 'Oswald', sans-serif;
+    font-size: 85px;
+    font-weight: 800;
+    color: white;
+    line-height: 1;
+    letter-spacing: -4px;
+}
+.fontPlay{
+    line-height: 1;
+    letter-spacing: -4px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.contenLeftBottom{
+    background-image: url(../../../imagenes/home/ecopetrol.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 340px;
+    height: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contentRight{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+}
+
+.contenRelativ{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    height: 100% ;
+    display: flex;
+}
+.bacgroundRight{
+    position: absolute;
+    height: 90%;
+    width: 40%;
+}
+.textRight{
+    top: 210px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 75px;
+    
+}
+.textTop{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.bold{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.textBottom{
+    display: flex;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.contBotones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 405px;
+    width: 240px;
+    height: 130px;
+    right: 275px;
+}
+
+.contRegistrarse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.Registrado{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.fontLogin{
+    color: #1E2479;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.link{
+    text-decoration: none;
+}
